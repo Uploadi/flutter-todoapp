@@ -267,6 +267,7 @@ class DynamicList extends State<ListDisplay> {
 
                             ))),
                     padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
+                    height: index == undoneTodos.length - 1 ? 30 : 0,
                   )
               ))
         ]);
